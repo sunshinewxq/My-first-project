@@ -1,0 +1,745 @@
+html,body,div,span,font,a,img,hr,p,ul，li{
+    font-size: 15px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+}
+h4, h5, h6,h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+ul,li{list-style: none;}
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
+#d1{
+    background-color: #45454D;
+    margin-top: -50px;
+}
+/*logo图*/
+.banner .adv .logo a{
+    float: left;
+    margin: 20px 30px 0;
+}
+.banner .adv .logo a img{
+    width: 57px;
+    height: 57px;
+}
+/*导航开始*/
+/*#root{*/
+    /*position: relative;*/
+/*}*/
+.banner{
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0,0.4);
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+}
+.banner .adv{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
+.banner .adv .list{
+    width: 810px;
+    height: 50px;
+    float: right;
+    margin-top: 33px;
+}
+.banner .adv .list li{
+    float: left;
+    width: 90px;
+    height: 34px;
+    position: relative;
+    padding-left: 45px;
+}
+.banner .adv .list li .box{
+    width: 110px;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: -250px;
+}
+.banner .adv .list li .box a{
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.6s;
+    border: 2px solid rgba(250,250,250,0);
+    overflow: hidden;
+}
+.banner .adv .list li .box a div{
+    transition: all 0.6s;
+}
+.banner .adv .list li .box a div span{
+    display:block;
+    font-size:18px;
+    line-height:30px;
+}
+.banner .adv .list li .box a:hover{
+    width:106px;
+    border:2px solid rgba(250,250,250,1);
+    text-align:center
+}
+.banner .adv .list li .box a:hover div{
+    margin-top:-30px;
+}
+.banner .adv .list li .box1 a div{
+    margin-top:-30px;
+}
+.banner .adv .list li .box1 a{
+    width:106px;
+    border:2px solid rgba(250,250,250,1);
+}
+#write{
+    width: 100%;
+    height: 103px;
+    background: #45454D;
+}
+/*轮播开始*/
+#big{
+    width:100%;
+    height:688px;
+}
+#big .con{
+    width:100%;
+    height:650px;
+    margin:0 auto;
+    position:relative;
+}
+#big .con .pic{
+    width:100%;
+    height:650px;
+    position:relative;
+}
+#big .con .pic img{
+    width:100%;
+    height:688px;
+    position:absolute;
+    display:none;
+}
+#big .con .list{
+    width:126px;
+    height:10px;
+    background:rgba(0,0,0,.1);
+    margin:auto;
+    position:absolute;
+    top: 590px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius:12px;
+    padding:7px 4px;
+}
+#big .con .list li{
+    width:8px;
+    height:8px;
+    border:1px solid #fff;
+    list-style:none;
+    float:left;
+    margin:0 4px;
+    border-radius:50%;
+    cursor:pointer;
+}
+#big .con .list .hov{background:#fff;}
+
+#big .con .but li{
+    list-style:none;
+    width:50px;
+    height:70px;
+    cursor:pointer;
+    color:#fff;
+    font-size:34px;
+    text-align:center;
+    line-height:70px;
+    font-weight:700;
+    position:absolute;
+    top:310px;
+    display:none;
+}
+#big .con .but li:hover{
+    background:rgba(0,0,0,.2);
+    color: #cca629;
+}
+#big .con .but .left{left:20px;}
+#big .con .but .right{right:20px;}
+#big .con:hover .but li{display:block;}
+#China{
+    width: 100%;
+    background-color:#45454D;
+}
+/*最上文本*/
+#China .title{
+    color: green;
+    font-size: 36px;
+    line-height: 125px;
+    font-family:"Microsoft YaHei";
+    text-align: center;
+}
+.content{
+    height: 300px;
+    margin: -45px 0 0 0;
+    padding: 60px 0 0 90px;
+    position: relative;
+}
+.content div{
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+/*清远*/
+#sty{
+    font-size: 30px;
+    color: #FFB500;
+    font-weight: bold;
+    margin-left: 20px;
+}
+/*文本*/
+.content div:last-child{
+    width: 600px;
+    padding-left: 110px;
+    top: 60px;
+    left: -60px;
+    color: #fff;
+}
+.content div span{
+    font-size: 20px;
+}
+.content div img{
+    width: 320px;
+    height: 260px;
+    margin: 0 0 -4px 43px;
+}
+/*模态*/
+#mtai{
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    top: 80%;
+    left: 43px;
+    background: rgba(0,0,0,0.7);
+    transition: top 0.5s;
+}
+#mtai:hover{
+    top: 0;
+}
+#mtai h2{
+    color: #E7E591;
+    line-height: 48px;
+}
+#mtai p{
+    width: 200px;
+    font-size: 15px;
+    color: #fff;
+    margin-left: -58px;
+    margin-top: 30px;
+}
+/*广东*/
+.content2{
+    width: 100%;
+    height: 300px;
+    margin: -45px 0 0 -200px;
+    padding: 60px 0 0 90px;
+    position: relative;
+}
+.content2 div{
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+#yle{
+    font-size: 30px;
+    color:#FFB500;
+    font-weight: bold;
+    margin-right: -20px;
+}
+/*文本*/
+.content2 div:last-child{
+    width: 600px;
+    padding-right: 70px;
+    top: 60px;
+    color: #fff;
+}
+.content2 div span{
+    font-size: 20px;
+}
+.content2 div img{
+    width: 320px;
+    height: 260px;
+    margin: 0 0 -4px 43px;
+}
+/*模态*/
+#mot{
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    transition: top 0.5s;
+    top: 80%;
+    left: 43px;
+}
+#mot:hover{
+    top: 0;
+}
+#mot h2{
+    color: #E7E591;
+    margin-left: 101px;
+    line-height: 48px;
+}
+#mot p{
+    width: 200px;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 52px;
+    margin-top: 30px;
+}
+/*a标记的动画*/
+body a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+/*每组图片占得宽*/
+.span_4 {
+    width:25%;
+}
+.col_4 {
+    display: block;
+    float: left;
+}
+.portfolio{
+    border-top:4px solid #35353f;
+}
+.b-link-stripe{
+    /*相对定位*/
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    font-weight: 300;
+    overflow:hidden;
+    width: 100%;
+}
+/*中间一行图片*/
+.b-link-stripe .b-wrapper{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-align:center;
+    color:#ffffff;
+    overflow:hidden;
+}
+/*动画*/
+.b-animate{
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    visibility: hidden;
+    font-size:1.1em;
+    font-weight:700;
+}
+/*相机图片位置*/
+.b-animate span{
+    display:block;
+    font-size:1em;
+    text-transform: uppercase;
+    padding-top:1.3em;
+    display: block;
+    font-weight: 500;
+}
+/*按钮样式*/
+.b-animate button{
+    background: #FFB500;
+    padding: 1.1em 2.4em;
+    color: #35353F;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.8em auto;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    outline: none;
+    font-weight: 700;
+}
+/*鼠标移入按钮*/
+.b-animate button:hover{
+    background:#3B3B43;
+    color:#fff;
+}
+/*按钮下数字样式*/
+.b-animate label{
+    display:block;
+    font-size:0.875em;
+    margin-top:0.5em;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -ms-transition:0.5s all;
+    -o-transition:0.5s all;
+}
+/*鼠标移入数字样式*/
+.b-animate label:hover{
+    color:#FFB500;
+    cursor:pointer;
+}
+/*鼠标移入，自左向右出现*/
+.b-animate-go:hover .b-animate{
+    visibility:visible;
+}
+.b-from-left{
+    position: relative;
+    left: -100%;
+    background:#45454d;
+    background-size: 100% 100%;
+    top: 0px;
+    margin: 0;
+    min-height:315px;
+}
+.b-animate-go:hover .b-from-left{
+    left:0;
+}
+/*模态框*/
+#mo{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+/*关闭按钮*/
+.close{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    right: 10%;
+    color: #f1f1f1;
+}
+.close:hover,.close:focus{
+    color: #bbb;
+    cursor: pointer;
+}
+/*模态中的图片*/
+#moimg{
+    display: block;
+    margin: 100px auto;
+    width: 690px;
+    max-width: 750px;
+}
+#moimg,#caption{
+    -webkit-animation: first 1s;
+    -o-animation: first 1s;
+    animation: first 1s;
+}
+@keyframes first {
+    from{transform: scale(0.1);}
+    to{transform: scale(1);}
+}
+
+
+
+/*a标记的动画*/
+body a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+/*每组图片占得宽*/
+.span_1_of_4 {
+    width:25%;
+}
+.col_1_of_4 {
+    display: block;
+    float: left;
+}
+.portfolio{
+    border-top:3px solid #45454d;
+}
+.b-link-stripe{
+    /*相对定位*/
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    font-weight: 300;
+    overflow:hidden;
+    width: 100%;
+}
+/*中间一行图片*/
+.b-link-stripe .b-wrapper{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-align:center;
+    color:#ffffff;
+    overflow:hidden;
+}
+/*动画*/
+.b-animate{
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    visibility: hidden;
+    font-size:1.1em;
+    font-weight:700;
+}
+/*相机图片位置*/
+.b-animate span{
+    display:block;
+    font-size:1em;
+    text-transform: uppercase;
+    padding-top:1.3em;
+    display: block;
+    font-weight: 500;
+}
+/*按钮样式*/
+.b-animate button{
+    background: #FFB500;
+    padding: 1.1em 2.4em;
+    color: #35353F;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.8em auto;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    outline: none;
+    font-weight: 700;
+}
+/*鼠标移入按钮*/
+.b-animate button:hover{
+    background:#3B3B43;
+    color:#fff;
+}
+/*按钮下数字样式*/
+.b-animate label{
+    display:block;
+    font-size:0.875em;
+    margin-top:0.5em;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -ms-transition:0.5s all;
+    -o-transition:0.5s all;
+}
+/*鼠标移入数字样式*/
+.b-animate label:hover{
+    color:#FFB500;
+    cursor:pointer;
+}
+/*鼠标移入，自左向右出现*/
+.b-animate-go:hover .b-animate{
+    visibility:visible;
+}
+.b-from-left{
+    position: relative;
+    left: -100%;
+    background:#45454d;
+    background-size: 100% 100%;
+    top: 0px;
+    margin: 0;
+    min-height:315px;
+}
+.b-animate-go:hover .b-from-left{
+    left:0;
+}
+/*间距样式*/
+.portfolio_bottom{
+    background:#35353f;
+    text-align: center;
+    padding:3em 0;
+}
+/*最下按钮*/
+.btn3 span {
+    padding: 0.8em 2.5em;
+    display: inline-block;
+    border: 2px solid #FFF;
+    font-size: 1em;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0.5em;
+    margin-top: 30px;
+}
+.btn3 span:hover{
+    color:#ffb500;
+    background:#fff;
+}
+/*模态框*/
+#mo{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+/*间距样式*/
+#two {
+    width: 100%;
+    height: 100px;
+    background: #45454D;
+    margin-top: 950px;
+}
+/*第五页*/
+.me{
+    width: 100%;
+    height: 850px;
+    background: url("../photo/tm1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.myme{
+    width: 100%;
+    height: 530px;
+    top: 10px;
+    background-color: #c1c1c1;
+}
+.myme h1{
+    color: #005aa0;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.myme p{
+    font-size: 25px;
+    color: #4775a6;
+    float: left;
+    position: relative;
+    margin: 28px 117px 0 193px;
+}
+#myList{
+    padding-left: 70px;
+}
+#myList li{
+    float: left;
+    padding: 46px 63px 0 0;
+    height: 290px;
+}
+#myList li img{
+    width: 353px;
+    height: 279px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    transition: .6s;
+}
+#myList li img:hover {
+    margin-top: -30px;
+    box-shadow: 13px 13px 5px #888888;
+    transition: all .6s ease;
+}
+@keyframes fade-in {
+    0% {opacity: 0;}
+    50% {opacity: .7;}
+    100% {opacity: 1;}
+}
+/*最后一页*/
+.footer{
+    width: 100%;
+    height: 300px;
+}
+.box{
+    width: 1222px;
+}
+.box ul{
+    float: left;
+    padding-left: 70px;
+    margin-top: 100px;
+}
+.box ul li{
+    line-height: 30px;
+    color: #9d9d9d;
+}
+.box2 img{
+    width: 100px;
+    position: relative;
+    top: 95px;
+    left: 155px;
+}
+.box2 img:nth-child(2){
+    width: 100px;
+    position: relative;
+    top: 65px;
+    left: 260px;
+}
+.box2 p{
+    width: 100px;
+    font-size: 15px;
+    color: #777777;
+    position: relative;
+    margin-left: 831px;
+    top: 63px;
+}
+.box3{
+    width: 100%;
+}
+.box3 p{
+    position: absolute;
+    margin: 40px 0 0 1021px;
+    color: #777777;
+}
+.box3 p:last-child{
+    position: absolute;
+    margin: 40px 0 0 1135px;
+    color: #777777;
+}
+#l1{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -30px;
+}
+#l2{
+    position: absolute;
+    margin-left: 619px;
+    margin-top: -30px;
+}
+
+#l3{
+    position: absolute;
+    margin-left: 732px;
+    margin-top: -30px;
+}
+.box4 p{
+    top: 173px;
+    left: -150px;
+    position: relative;
+}

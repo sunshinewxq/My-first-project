@@ -1,0 +1,89 @@
+body{
+    background-color: #fff;
+    width: 1423px;
+}
+.bg_video{
+    position: absolute;
+    width: 1140px;
+    height: 650px;
+    left: 142px;
+}
+#touch{
+    margin:100px auto;
+}
+#touch .Login{
+    width:290px;
+    height:470px;
+    background:rgba(255,255,255,.7);
+    border-radius:10px;
+    padding:1px 75px 0 60px;
+    margin-left: 488px;
+    position: relative;
+    top: -20px;
+}
+#touch .Login h2{
+    line-height:45px;
+    font-size:26px;
+    font-weight:100;
+    padding-bottom:20px;
+    text-align: center;
+}
+#touch .Login h2 a{
+    color:#02b1cb;
+    font-size:15px;
+    float:right;
+    text-decoration:none;
+    position: absolute;
+    margin: 345px 0 0 145px;
+}
+#touch .Login h3{
+    font-size:17px;
+    font-weight:100;
+}
+#touch .Login h3 a{
+    color:#02b1cb;
+    font-size:14px;
+    float:right;
+    text-decoration:none;
+}
+#touch .Login h3 a.fl{float:left;}
+#touch .Login h3 a.fr{float:right;}
+#touch .Login h3.ck{
+    font-size:12px;
+    height:30px;
+    color:#666;
+    position:relative;
+}
+#touch .Login p input{
+    width:300px;
+    height:35px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    text-indent:10px;
+    color:#ccc;
+}
+#touch .Login p input.tj{
+    width:300px;
+    height:45px;
+    background:green;
+    color:#fff;
+    font-size:16px;
+    border-radius:5px;
+    text-align:center;
+    line-height:45px;
+    margin-top:20px;
+    border:0px;
+}
+#touch h1{
+    color: #d6d8e2;
+    position: relative;
+    margin-left: 205px;
+    top: -25px;
+}
+#touch img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 41px;
+    left: 159px;
+}

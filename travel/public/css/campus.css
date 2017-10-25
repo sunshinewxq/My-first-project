@@ -1,0 +1,76 @@
+.dict{
+    margin-top:71px;
+}
+.dict .bg{
+    width:100%;
+    height:430px;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.part4 .wrap{
+    position: relative;
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.dict .part4{
+    position:relative;
+    width:100%;
+    height:530px;
+    background:#f0f2f5;
+}
+.part4 .wrap .first{
+    float:left;
+    width:290px;
+    height:130px;
+    margin-top:200px;
+    color:#0080ba;
+    font-size: 18px;
+}
+.part4 .wrap .first .p1{
+    font-size: 40px;
+}
+.part4 .wrap .first .p2,.part4 .wrap .first .p3{
+    line-height: 26px;
+}
+.part4 .wrap .second{
+    position: relative;
+    float:right;
+    width:530px;
+    height:430px;
+    margin-top:50px;
+}
+.part4 .wrap .second .p1{
+    width:100%;
+    height:100%;
+}
+.part4 .wrap .second .p1 img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+/*指针*/
+.part4 .wrap .second .p2{
+    position: absolute;
+    top: 106px;
+    left: 214px;
+    width:157px;
+    height:163px;
+}
+.part4 .wrap .second .p2 img{
+    display:block;
+    width:100%;
+    height:auto;
+    animation: watch 60s linear infinite;
+}
+@keyframes watch {
+    from{transform: rotate(0deg); transform-origin:26% 67%;}
+    to{transform: rotate(360deg);transform-origin:26% 67%;}
+}
+.dict .bg4{
+    background-image:url("../photo/bg5.jpg")
+}
+.dict .bg5{
+    background-image:url("../photo/bg4.jpg")
+}
